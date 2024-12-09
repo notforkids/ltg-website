@@ -1,0 +1,78 @@
+.fee-cont{
+    padding: 2em 0;
+}
+#cardtitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: 21pt;
+}
+.fee-main-title{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #070707;
+    font-size: clamp(20pt, 5vw, 36pt);
+}
+
+.fee-main-title span{
+    font-weight: 700;
+    color: #c10000;
+}
+#carddesc{
+    text-align: center;
+    padding: 24px 24px;
+    margin-bottom: 24px;
+    font-size: 14pt;
+}
+.fee-main-desc{
+    margin-bottom: 2em;
+    padding: 0px 50px;
+    text-align: center;
+    font-size: clamp(14pt, 5vw, 21pt);
+    font-weight:normal;
+
+}
+
+.fee-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #070707;
+    transition: all 0.2s;
+    padding: 2em 1em;
+}
+
+/* .cardheight{
+    height: 400px;
+    
+} */
+
+
+.fee-stage {
+    display: flex;
+    align-items: center;
+}
+
+.fee-stage i{
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.fee-stage h3{
+    font-size:2rem;
+}
+
+
+.fee-box h2{
+    font-size: 2.5rem;
+    font-weight: 700
+}
+
+@media (min-width: 992px){
+    .first{
+        align-items: flex-start;
+    }
+
+    .third{
+        align-items: flex-end;
+    }
+}

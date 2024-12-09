@@ -1,0 +1,41 @@
+.bg-color{
+    color: white;
+}
+.me-auto{
+    font-weight: 600;
+    font-size: 11pt;
+
+}
+
+.logo-img{
+    height: 50px;
+    width: auto;
+    
+}
+
+.franchise-now{
+    background-color: #C10000;
+    border-color: transparent;
+    border-radius: 30px;
+    color: white;
+    width: 150px;
+
+}
+
+.franchise-now:hover{
+    color: #C10000;
+    border: 2px solid #C10000;
+    background:  transparent;
+}
+
+.border-icon{
+    color: grey;
+}
+
+.facebook{
+    margin-left: 30px;
+}
+
+.facebook:hover{
+    color: black;
+}

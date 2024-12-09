@@ -1,0 +1,136 @@
+.divltglogo{
+    margin-top: 5%;
+   
+}
+
+.divltglogo, .divshortbackground, .betterloan, .divbetterloanpg, .divlearnmore{
+    display: flex; 
+    justify-content: center;
+    align-items: center;;
+    text-align: center;
+   
+}
+
+.shortbackground{
+    margin: 30px 0px;
+    font-size: 16pt;
+    width: 80%;
+    
+}
+.divbetterloanpg{
+    margin-bottom: 0;
+}
+
+.ltgred{
+    color: #c10000;
+}
+
+.ltggrey{
+    color: #737373
+}
+
+.betterloan{
+    color: #354255;
+    font-family: "Comic Neue", cursive;
+    font-size: 18pt;
+}
+
+.betterloanpg {
+    margin: 30px 0px;
+    font-size: 14pt;
+    width: 80%;
+    height: auto;
+}
+
+.learnmore-btn{
+    border: 0;
+    background-color: transparent;
+    color: #c10000
+    
+}
+.divlearnmore{
+    margin-bottom: 5%;
+}
+
+@media(min-width:320px){
+    .ltglogo{
+        width: auto;
+        margin-top: 5%;
+        height: 70px;
+    }
+
+}
+
+
+@media(min-width:375px){
+    
+
+}
+
+@media(min-width:425px){
+    .ltglogo{
+        width: auto;
+        margin-top: 5%;
+        height: 80px;
+    }
+
+}
+
+@media(min-width:768px){
+    .ltglogo{
+        width: auto;
+        margin-top: 5%;
+        height: 80px;
+    }
+}
+
+@media(min-width:800px){
+   
+
+}
+
+
+@media(min-width:1024px){
+    .ltglogo{
+        width: auto;
+        margin-top: 0;
+        height: 90px;
+    }
+}
+
+@media(min-width:1280px){
+    .ltglogo{
+        width: auto;
+        margin-top: 0;
+        height: 100px;
+    }
+}
+
+@media(min-width:1360px){
+
+}
+
+@media(min-width:1366px){
+
+}
+@media(min-width:1600px){
+    .ltglogo{
+        width: auto;
+        margin-top: 0;
+        height: 110px;
+    }
+
+}
+
+@media(min-width: 1680px){
+
+}
+
+@media(min-width: 1920px){
+    .ltglogo{
+        width: auto;
+        height: 114px;
+        margin-top: 5%;
+    }
+   
+}

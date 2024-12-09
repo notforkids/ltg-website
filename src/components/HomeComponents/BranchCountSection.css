@@ -1,0 +1,30 @@
+.branch-count-section{ 
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.5)), url(../../img/branchescount.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: cover;
+    background-position: center;
+    width: 100%;
+    height:40vh;
+    margin: 60px 0px;
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.count{
+    font-size: clamp(40pt, 4vw, 70pt);
+    color: white;
+    font-weight: bold;
+}
+
+.branchesandclients{
+    color: #c10000;
+    font-size: clamp(12pt, 4vw, 22pt);
+}
+
+.divcount{
+    text-align: center;
+}
